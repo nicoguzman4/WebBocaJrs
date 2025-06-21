@@ -1,0 +1,292 @@
+/*para texto padding*/
+
+/*-------------------------------------inicio-------------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header{
+    background-color: rgb(1, 1, 5);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    flex-direction: row;
+}
+
+
+
+header img{ 
+    width: 80px;
+    margin: 8px;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+header nav{
+    width: 40%;
+    margin: 25px;
+
+}
+
+a{
+    color: yellow;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}*/
+
+.menunav{
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+main{
+    background-color: #000957;
+    padding: 0px 0px 30px 0px;
+    color: yellow;
+}
+
+.banner{
+    text-align: justify;
+    background-image: url(../media/escudoconfondo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-shadow: 15px -1px 25px rgb(243, 239, 26);
+    color: yellow;
+    padding: 100px 0px;
+}
+
+.diego{
+    width: 350px;
+    height: 450px;
+}
+
+.roman{
+    width: 350px;
+    height: 450px;
+}
+
+.tevez{
+    width: 350px;
+    height: 450px;
+}
+
+.idolos{
+display: flex;
+justify-content: space-evenly;
+text-align: center;
+color: yellow;
+}
+
+
+
+.presentacionindex{
+    margin: 30px 10px ;
+}
+
+
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 35px
+    
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+footer nav{
+    width: 40%;
+    margin: 15px 
+}
+
+
+/*-------------------------------------Historia-------------------------------------*/
+
+.historia{
+    color: yellow;
+}
+
+.historia h1{
+    font-style: italic;
+}
+
+.historia h3{
+    padding: 10px;
+}
+.q1, .q2,.q3,.q4,.q5,.q6,.q7,.q8,.q9,.q10,.q11,.q12,.q13,.q14,.q15,.q16,.q17,.q18,.q19,.q20,.q21,.q22,.q23,.q24{
+    padding: 40px 3px 15px 3px;
+    text-align: center;
+    text-decoration-line: overline;
+}
+
+/*-------------------------------------Estadio-------------------------------------*/
+
+.estadio{
+    background-image: url(../media/bombonera1.jpeg);
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-shadow: 15px 0px 25px rgb(243, 239, 26);
+    color: yellow;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.historiaestadio{
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    text-decoration-line: underline;
+}
+
+.mainestadio h3{
+    padding: 10px ;
+    
+}
+
+
+/*-------------------------------------Galeria-------------------------------------*/
+.galeriamain{
+    width: 100%;
+}
+
+.cont-grid img{
+
+  width: 100%;
+  height: auto;
+ 
+}
+
+
+.cont-grid{
+display: grid;
+grid-template-areas: 
+"video1 video1 video2 video2"
+"foto1 foto2 foto3 foto4"
+"foto5 foto6 foto7 foto8"
+"foto9 foto10 foto11 foto12";
+
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: 350px;
+gap: 10px;
+
+justify-content: center;
+justify-items: center;
+align-items: center;
+}
+
+.grid-video1 { grid-area: video1; }
+.grid-video2 { grid-area: video2; }
+
+.grid-img1 { grid-area: foto1; }
+.grid-img2 { grid-area: foto2; }
+.grid-img3 { grid-area: foto3; }
+.grid-img4 { grid-area: foto4; }
+
+.grid-img5 { grid-area: foto5; }
+.grid-img6 { grid-area: foto6; }
+.grid-img7 { grid-area: foto7; }
+.grid-img8 { grid-area: foto8; }
+
+.grid-img9 { grid-area: foto9; }
+.grid-img10 { grid-area: foto10; }
+.grid-img11 { grid-area: foto11; }
+.grid-img12 { grid-area: foto12; }
+
+
+
+
+/*-------------------------------------PLANTEL ------------------------------------------------*/
+
+.plantel{
+    justify-content: space-evenly;
+text-align: center;
+padding: 10px 10px 10px 10px;
+}
+/*-------------------------------------MEDIA-------------------------------------*/
+@media (max-width:500px){
+    header{
+flex-direction: column;
+    }
+
+    header img{
+        width: 40px;
+    }
+    
+    header nav{
+    width: 10%;
+    margin: 25px;
+    } 
+           /*galeria*/
+    
+    .cont-grid{
+        grid-template-areas: 
+        "video1"
+        "video2"
+        "foto1"
+        "foto2"
+        "foto3"
+        "foto4"
+        "foto5"
+        "foto6"
+        "foto7"
+        "foto8"
+        "foto9"
+        "foto10"
+        "foto11"
+        "foto12";
+        grid-template-columns: 1fr;
+        grid-template-rows: 350px;
+    }
+   .grid-video1,.grid-video2,.grid-img1,.grid-img2,.grid-img3,.grid-img4,.grid-img5,.grid-img6,
+    .grid-img7,.grid-img8,.grid-img9,.grid-img10,.grid-img11,.grid-img12{
+        width: auto;
+    }
+
+.idolos{
+    display: grid;
+    grid-template-areas: 
+    "diego"
+    "texto1"
+    "roman"
+    "texto2"
+    "carlos"
+    "texto3";
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 500px;
+    gap: 10px;
+}
+
+.diego{grid-area: diego; }
+.frasediego{ grid-area: texto1;}
+
+.roman{grid-area: roman; }
+.fraseroman{ grid-area: texto2 ;}
+
+.tevez{ grid-area:carlos ;}
+.frasetevez{ grid-area: texto3 ;}
+
+.tevez,.diego,.roman{ justify-content: end;}
+}
