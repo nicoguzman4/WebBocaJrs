@@ -1,83 +1,24 @@
-/*para texto padding*/
-
-/*-------------------------------------inicio-------------------------------------*/
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/*header{
-    background-color: rgb(1, 1, 5);
-    display: flex;
-    justify-content: space-between;
-    position: sticky;
-    top: 0px;
-    flex-direction: row;
-}
-
-
-
-header img{ 
-    width: 80px;
-    margin: 8px;
-}
-header ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    height: 100%;
-    align-items: center;
-}
-
-header nav{
-    width: 40%;
-    margin: 25px;
-
-}
-
-a{
-    color: yellow;
-    text-decoration: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1rem;
-}*/
-
-.menunav{
-    background-color: rgb(255, 255, 255);
-}
-
-
-
-
 main{
     background-color: #000957;
     padding: 0px 0px 30px 0px;
     color: yellow;
-}
 
-.banner{
-    text-align: justify;
+    .banner{    text-align: justify;
     background-image: url(../media/escudoconfondo.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     text-shadow: 15px -1px 25px rgb(243, 239, 26);
     color: yellow;
-    padding: 100px 0px;
-}
+    padding: 100px 0px;}
+    
+    .diego{    width: 350px;
+    height: 450px;}
 
-.diego{
+    .roman{
     width: 350px;
     height: 450px;
 }
-
-.roman{
-    width: 350px;
-    height: 450px;
-}
-
 .tevez{
     width: 350px;
     height: 450px;
@@ -89,14 +30,10 @@ justify-content: space-evenly;
 text-align: center;
 color: yellow;
 }
-
-
-
+}
 .presentacionindex{
     margin: 30px 10px ;
 }
-
-
 
 footer{
     background-color: black;
@@ -120,8 +57,6 @@ footer nav{
 }
 
 
-/*-------------------------------------Historia-------------------------------------*/
-
 .historia{
     color: yellow;
 }
@@ -138,8 +73,6 @@ footer nav{
     text-align: center;
     text-decoration-line: overline;
 }
-
-/*-------------------------------------Estadio-------------------------------------*/
 
 .estadio{
     background-image: url(../media/bombonera1.jpeg);
@@ -165,8 +98,6 @@ footer nav{
     
 }
 
-
-/*-------------------------------------Galeria-------------------------------------*/
 .galeriamain{
     width: 100%;
 }
@@ -214,18 +145,13 @@ align-items: center;
 .grid-img11 { grid-area: foto11; }
 .grid-img12 { grid-area: foto12; }
 
-
-
-
-/*-------------------------------------PLANTEL ------------------------------------------------*/
-
 .plantel{
     justify-content: space-evenly;
 text-align: center;
 padding: 10px 10px 10px 10px;
 }
-/*-------------------------------------MEDIA-------------------------------------*/
-@media (max-width:768px){
+
+@media (max-width:500px){
     header{
 flex-direction: column;
     }
@@ -289,9 +215,4 @@ flex-direction: column;
 .frasetevez{ grid-area: texto3 ;}
 
 .tevez,.diego,.roman{ justify-content: end;}
-
-.banner h1{
-    display: none;
 }
-}
-
