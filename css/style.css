@@ -297,6 +297,12 @@ flex-direction: column;
 
 .tevez,.diego,.roman{ justify-content: end;}
 
+footer{
+    flex-direction: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
 
 }
 
