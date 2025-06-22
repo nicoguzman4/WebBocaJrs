@@ -228,6 +228,10 @@ footer nav {
   .tevez, .diego, .roman {
     justify-content: end;
   }
+
+  .banner h1{
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
