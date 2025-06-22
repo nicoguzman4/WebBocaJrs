@@ -302,6 +302,7 @@ footer{
     align-items: center;
     text-align: center;
     gap: 20px;
+    justify-content: space-around;
 }
 
 }
