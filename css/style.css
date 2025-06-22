@@ -227,6 +227,7 @@ padding: 10px 10px 10px 10px;
 /*-------------------------------------MEDIA-------------------------------------*/
 @media (max-width:768px){
 
+ 
   .frasebanner {
     display: none;
   }
