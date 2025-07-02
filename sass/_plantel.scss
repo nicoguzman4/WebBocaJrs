@@ -3,3 +3,13 @@
   text-align: center;
   padding: 10px;
 }
+
+.accordion-item{
+  background-color: $color-principal;
+  color: $color-secundario;
+}
+
+.accordion-button{
+    background-color: $color-principal;
+  color: $color-secundario;
+}
