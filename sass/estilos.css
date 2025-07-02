@@ -107,13 +107,9 @@ footer {
   height: 35px;
 }
 
-/*.cont-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-}*/
 .galeriamain {
   width: 100%;
+  height: auto;
 }
 
 .cont-grid img {
