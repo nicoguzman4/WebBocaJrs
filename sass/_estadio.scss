@@ -1,0 +1,20 @@
+.estadio {
+  @include fondo-con-imagen("../media/bombonera1.jpeg");
+      background-image: url(../media/bombonera1.jpeg);
+  text-shadow: 15px 0px 25px rgb(243, 239, 26);
+  color: yellow;
+  padding: 100px 0px;
+  text-align:center
+}
+
+.historiaestadio {
+  padding: 20px;
+  text-align: center;
+  font-style: italic;
+  font-size: 50px;
+  text-decoration-line: underline;
+}
+
+.mainestadio h3 {
+  padding: 10px;
+}

@@ -1,0 +1,6 @@
+@mixin fondo-con-imagen($ruta) {
+  background-image: url($ruta);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,29 @@
+main {
+  background-color: $color-principal;
+  padding: 0px 0px 30px 0px;
+  color: yellow;
+
+  .banner {
+    @include fondo-con-imagen("../media/escudoconfondo.png");
+    text-align: justify;
+    text-shadow: 15px -1px 25px rgb(243, 239, 26);
+    color: yellow;
+    padding: 100px 0px;
+  }
+
+  .presentacionindex {
+    margin: 30px 10px;
+  }
+
+  .idolos {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: yellow;
+  }
+
+  .diego, .roman, .tevez {
+    width: 350px;
+    height: 450px;
+  }
+}
