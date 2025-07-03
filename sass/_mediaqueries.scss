@@ -1,14 +1,29 @@
 @media (max-width:768px){
 
+
+
  
   .frasebanner {
     display: none;
   }
  
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $color-principal;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menunav {
+    background-color: $color-principal !important;
+  }
 
-    header{
-flex-direction: column;
-    }
+  .navbar {
+    width: 100%;
+  }
+
 
     header img{
         width: 40px;
@@ -44,31 +59,34 @@ flex-direction: column;
         width: auto;
     }
 
-.idolos{
-    display: grid;
+.idolos {
+    display: grid !important;
     grid-template-areas: 
-    "diego"
-    "texto1"
-    "roman"
-    "texto2"
-    "carlos"
-    "texto3";
-
+      "diego"
+      "texto1"
+      "roman"
+      "texto2"
+      "carlos"
+      "texto3";
     grid-template-columns: 1fr;
-    grid-template-rows: 500px;
-    gap: 10px;
+    grid-template-rows: auto;
+    gap: 20px;
+  }
+
+  .diego { grid-area: diego; }
+  .frasediego { grid-area: texto1; }
+
+  .roman { grid-area: roman; }
+  .fraseroman { grid-area: texto2; }
+
+  .tevez { grid-area: carlos; }
+  .frasetevez { grid-area: texto3; }
+
+  .diego, .roman, .tevez {
+    width: 100%;
+    height: auto;
+  }
 }
-
-.diego{grid-area: diego; }
-.frasediego{ grid-area: texto1;}
-
-.roman{grid-area: roman; }
-.fraseroman{ grid-area: texto2 ;}
-
-.tevez{ grid-area:carlos ;}
-.frasetevez{ grid-area: texto3 ;}
-
-.tevez,.diego,.roman{ justify-content: end;}
 
 footer{
     flex-direction: flex;
@@ -78,4 +96,4 @@ footer{
     justify-content: space-around;
 }
 
-}
+

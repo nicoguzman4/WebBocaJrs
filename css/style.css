@@ -8,41 +8,7 @@
     box-sizing: border-box;
 }
 
-/*header{
-    background-color: rgb(1, 1, 5);
-    display: flex;
-    justify-content: space-between;
-    position: sticky;
-    top: 0px;
-    flex-direction: row;
-}
 
-
-
-header img{ 
-    width: 80px;
-    margin: 8px;
-}
-header ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    height: 100%;
-    align-items: center;
-}
-
-header nav{
-    width: 40%;
-    margin: 25px;
-
-}
-
-a{
-    color: yellow;
-    text-decoration: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1rem;
-}*/
 
 .menunav{
     background-color: rgb(255, 255, 255);
