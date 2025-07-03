@@ -16,7 +16,7 @@ header {
   color: yellow !important;
 }
 .menunav .nav-link:hover {
-  color: #000957 !important;
+  color: white;
 }
 .menunav .navbar-toggler {
   background-color: white;
